@@ -1,0 +1,192 @@
+
+.navbar {
+    transition: all 0.5s;
+    font-family: 'Shadows Into Light Two', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+
+.navbar .navbar-brand {
+    color: #fff;
+    display: flex;
+}
+
+.navbar-brand{
+   font-size: 2rem;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right,rgba(0, 0, 0) , rgb(98, 0, 0));
+}
+
+.navbar.active .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+.mainBtn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.btn-primary{
+    background-color: rgba(81, 81, 81, 0.832);
+    border: #000000;
+    color: #000000;
+    transition: 400ms;
+}
+
+.btn-primary:hover{
+    background-color: #e60101da;
+    color: #000;
+    transition: 250ms;
+}
+
+.btn-primary:focus{
+    background-color: #e60101da;
+    color: #000;
+    box-shadow: 0 0 0 0.25rem #670000bc;
+}
+
+
+
+h1{
+    margin-top: 10%;
+}
+
+.fontcontact {
+    font-size: 2rem;
+}
+
+.page-holder {
+    min-height: 120vh;
+    background-image: url("./template-mini-films-vide/assets/images/salle-cinema.jpeg");
+    background-size: cover !important;
+  }
+
+.card{
+    width: 18rem;
+    padding-right: 10px;
+    padding-top: 3px;
+    background-color: black;
+        
+}
+.card-img-top{ 
+    min-height: 378px;
+    max-height: 378px;
+}
+.card-title{
+    font-family: 'Racing Sans One', cursive;
+}
+.card-text{
+    font-family: 'Racing Sans One', cursive;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    color: #fff;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: rgb(250, 250, 250);
+    }
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.fontTitle{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+
+#films{
+    padding: 10% 15% 15%;
+}
+
+
+#containerFilm{
+    max-width:100%;
+}
+
+
+footer{
+    background: linear-gradient(to bottom,rgba(0, 0, 0) , rgb(98, 0, 0));
+   
+   
+
+}
+
+h6{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration:underline;
+}
+
+
+#ancres a{
+    text-decoration: none;
+    color: #fff;
+    margin: 1%;
+}
+
+#ancres a:hover{
+    text-decoration: none;
+    color: rgb(252, 4, 4);
+}
+
+.iconancre{
+    display: flex;
+    justify-content: center;
+}  
+
+
+.iconmove{
+margin-right: 2%;
+
+}
+
+.iconancre a img {
+width: 5vh;
+margin: 0.5vh;
+}
